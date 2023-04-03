@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.main{
+    background-color: black;
+    min-height: fit-content;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10rem auto;
+    padding: 2rem 0rem;
+    border: none;
+    border-radius: 1.875rem;
+}
+.main img
+{
+    max-width: 25%;
+    margin-top: 2%;
+}
+.main button{
+    margin: 1rem;
+    background-color: #E15625;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+}
+.main button:hover{
+    background-color: #ff0000;
+    box-shadow: 1px 1px 20px black;
+    cursor: pointer;
+}
+#heading{
+    color: white;
+}
