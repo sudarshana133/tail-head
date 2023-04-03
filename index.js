@@ -8,10 +8,10 @@ function coinSide() {
   const imgsource = "images/" + coinFound;
 //   console.log(imgsource);
   if (factor_deciding === 1) {
-    heading.innerHTML = "Head";
+    heading.innerHTML = "Tail";
     coin.setAttribute("src", imgsource);
   } else if (factor_deciding === 2) {
-    heading.innerHTML = "Tail";
+    heading.innerHTML = "Head";
     coin.setAttribute("src", imgsource);
   }
 }
